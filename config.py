@@ -7,7 +7,7 @@ import logging
 import os
 from dotenv import load_dotenv
 from logging.handlers import RotatingFileHandler
-from manager import selected_env
+#from manager import selected_env
 
 if (selected_env == ""):
     load_dotenv("config.env")
