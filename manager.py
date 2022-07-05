@@ -32,10 +32,11 @@ def run():
     return selected_env
 #if (selected_env == ''):
 #    selected_env=run()
+selected_env=run()
 
 
 if __name__ == '__main__':
     selected_env=run()
     #print(selected_env)
-    Bot().run()
+    #Bot().run()
     print("RUNNIG")
