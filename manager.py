@@ -1,6 +1,6 @@
 import os, fnmatch
 import sys, argparse
-from bot import Bot
+#from bot import Bot
 #from test import result
 
 
