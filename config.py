@@ -2,12 +2,18 @@
 # Recode by @mrismanaziz
 # t.me/csrand22 & t.me/csrand22
 
+from json import load
 import logging
 import os
 from dotenv import load_dotenv
 from logging.handlers import RotatingFileHandler
+from manager import selected_env
 
-load_dotenv("config.env")
+if (selected_env == ""):
+    load_dotenv("config.env")
+else:
+    load_dotenv(selected_env)
+
 
 # Bot token dari @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
@@ -25,7 +31,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "mrismanaziz")
+OWNER = os.environ.get("OWNER", "")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
