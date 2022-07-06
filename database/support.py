@@ -1,6 +1,6 @@
 # (©)Codexbotz
 # Recode by @mrismanaziz
-# t.me/csrand22 & t.me/csrand22
+# t.me/randomtalk_me & t.me/randomtalk_me
 
 import asyncio
 
