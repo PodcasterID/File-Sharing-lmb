@@ -102,7 +102,8 @@ class Bot(Client):
 
         self.set_parse_mode("html")
         self.LOGGER(__name__).info(
-            f"[🔥 BERHASIL DIAKTIFKAN! 🔥]\n\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/randomtalk_me"
+            f"[🔥 BERHASIL DIAKTIFKAN! 🔥]\n\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/randomtalk_me\n\n"
+            f"[🔥 BOT  @{self.username} AKTIF! 🔥]\n"
         )
 
     async def stop(self, *args):
